@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper
+{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #252A34;
+  display: flex;
+  justify-content: center;
+  padding:10rem ;
+  flex-direction: column;
+}
+
+.mainHeading{
+  font-size: 3.5rem;
+  color:#FFB000 ;
+
+}
+
+.mainContainer
+{
+  min-height: 20rem;
+  min-width: 40rem;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+/* list ITEm */
+
+
+.clearAll
+{
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  height: 2.5rem;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 13px;
+  border: none; 
+  background-color: #B15EFF;
+  color: #fff;
+}
+.clearAll:hover
+{
+ background-color: #FFA33C;
+ color: #191717;
+}
+
+.temp
+{
+  margin: 2.5rem 0;
+  display: flex;
+  gap: 30px;
+}
+
+.listItems
+{
+  width: 50rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

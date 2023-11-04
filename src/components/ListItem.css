@@ -1,0 +1,65 @@
+
+.listItem
+{
+  background-color: #fff;
+  margin-top: 1rem;
+  transform: translateX(-1rem);
+  min-width: 30rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem ;
+  justify-content: space-between;
+  min-height: 2.5rem;
+  border-radius: 15px;
+  gap: 20px;
+  background-color: #3F72AF;
+}
+
+.content
+{
+  font-size: 1rem;
+  color: #fff;
+  max-width: 20rem;
+  overflow-y:auto;
+  overflow-x: hidden;
+  max-height: 3rem;
+}
+
+.deleteBtn
+{
+  border: none;
+background-color: transparent;
+  cursor: pointer;
+  color:darkslategray;
+  font-size: 1.1rem;
+}
+.deleteBtn:hover
+{
+    color:cornflowerblue;
+    transform: scale(1.1);
+}
+
+.doneBtn
+{
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    border-radius: 100%;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color:thistle ;
+    cursor: pointer;
+}
+
+.doneBtn:hover
+{
+    background-color:cornflowerblue;
+    transform: scale(1.1);
+}
+
+.comp
+{
+    text-decoration: line-through; 
+    color: black;
+}

@@ -1,0 +1,34 @@
+.addbox
+{
+    background-color: #fff;
+    border-radius: 2rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.input
+{
+    margin: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.plusBtn
+{
+    border: none;
+    background-color: transparent;
+    padding: 0rem 2rem ;
+    font-size: 1.2rem;
+    color: #fff;
+   border-radius: 2rem;
+    cursor: pointer;
+    background-color: #ea755e;
+}
+
+.plusBtn:hover
+{
+    background-color: #B15EFF;
+}
